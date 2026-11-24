@@ -1,0 +1,23 @@
+ROBLOX AI BRIDGE – PROPRIETARY FREEWARE LICENSE
+
+Copyright (c) 2026 [COPYRIGHT HOLDER]
+
+All rights reserved.
+
+1. Permission is granted to download, install and use Roblox AI Bridge free of charge for personal and commercial development purposes.
+
+2. Roblox AI Bridge is proprietary software. Its availability free of charge does not constitute an open-source license.
+
+3. Unauthorized resale, redistribution, modification and reverse engineering are prohibited, except where expressly permitted by applicable law.
+
+4. Roblox AI Chat PRO is a separate product distributed through the Roblox Creator Store. Access to Roblox AI Bridge does not grant ownership of the paid plugin.
+
+5. Third-party components remain subject to their respective licenses.
+
+6. Third-party AI services may require separate accounts, API keys and usage fees.
+
+7. This software is an independent product and is not affiliated with, endorsed by or sponsored by Roblox Corporation.
+
+8. The software is provided AS IS, without warranties, to the extent permitted by applicable law.
+
+All rights and protections granted to consumers under mandatory applicable law remain unaffected.
