@@ -1,0 +1,98 @@
+# ROBLOX AI CHAT PRO & AI BRIDGE
+
+## Komercyjna licencja oprogramowania własnościowego
+
+**Copyright © 2026 kowalski83**  
+**Wszelkie prawa zastrzeżone.**
+
+### 1. Przedmiot licencji
+
+Niniejsza licencja obejmuje oprogramowanie:
+
+- Roblox AI Chat PRO – płatny plugin przeznaczony dla Roblox Studio.
+- Roblox AI Bridge – program pomocniczy umożliwiający komunikację pluginu z modelami i agentami sztucznej inteligencji.
+- Aktualizacje, moduły oraz pozostałe komponenty dostarczane przez autora.
+
+### 2. Zakup licencji
+
+Roblox AI Chat PRO jest produktem komercyjnym, sprzedawanym za pośrednictwem Roblox Creator Store.
+
+Legalny zakup produktu uprawnia użytkownika do korzystania z oprogramowania w celach prywatnych i komercyjnych, zgodnie z warunkami niniejszej licencji oraz zasadami Roblox Creator Store.
+
+Licencja nie oznacza przeniesienia praw autorskich ani własności kodu źródłowego.
+
+### 3. Program Roblox AI Bridge
+
+Roblox AI Bridge stanowi komponent pomocniczy produktu Roblox AI Chat PRO.
+
+Program jest udostępniany do pobrania bez dodatkowej opłaty, w celu umożliwienia korzystania z legalnie nabytego pluginu.
+
+Publiczna dostępność pliku EXE nie oznacza, że Roblox AI Chat PRO jest oprogramowaniem darmowym lub open source.
+
+Pobranie programu Bridge nie zastępuje zakupu pluginu.
+
+### 4. Prawa użytkownika
+
+Użytkownik posiadający ważną licencję może:
+
+- Korzystać z oprogramowania w Roblox Studio.
+- Tworzyć projekty prywatne i komercyjne.
+- Publikować i sprzedawać gry stworzone przy wykorzystaniu oprogramowania.
+- Pobierać udostępnione aktualizacje.
+- Instalować program na własnych komputerach zgodnie z uprawnieniami wynikającymi z zakupu.
+
+### 5. Ograniczenia licencyjne
+
+Bez pisemnej zgody właściciela praw autorskich zabrania się:
+
+- Kopiowania i udostępniania pluginu osobom nieuprawnionym.
+- Odsprzedawania oprogramowania.
+- Publikowania oprogramowania na innych platformach.
+- Rozpowszechniania zmodyfikowanych wersji.
+- Wykorzystywania kodu źródłowego do tworzenia konkurencyjnych produktów.
+- Obchodzenia zabezpieczeń licencyjnych.
+- Usuwania informacji o autorze i prawach autorskich.
+- Dekompilacji i inżynierii wstecznej, z wyjątkiem przypadków dozwolonych przez obowiązujące prawo.
+
+### 6. Weryfikacja licencji
+
+Oprogramowanie może zawierać mechanizmy sprawdzania uprawnień użytkownika do korzystania z produktu, w tym weryfikację własności pluginu za pośrednictwem usług Roblox.
+
+Autor zastrzega sobie możliwość rozwijania mechanizmów ochrony licencyjnej w kolejnych aktualizacjach, z poszanowaniem praw legalnych nabywców.
+
+### 7. Zewnętrzne usługi AI
+
+Cena zakupu pluginu nie obejmuje opłat pobieranych przez zewnętrznych dostawców usług sztucznej inteligencji.
+
+Użytkownik samodzielnie odpowiada za konfigurację własnych kont, kluczy API oraz koszty korzystania z wybranych modeli AI.
+
+### 8. Komponenty zewnętrzne
+
+Komponenty i biblioteki pochodzące od innych producentów podlegają ich własnym licencjom.
+
+Niniejsza licencja nie ogranicza praw wynikających z licencji komponentów zewnętrznych.
+
+### 9. Odpowiedzialność
+
+Oprogramowanie jest udostępniane bez dodatkowych gwarancji, w zakresie dopuszczalnym przez obowiązujące prawo.
+
+Użytkownik powinien weryfikować kod i zmiany generowane przez sztuczną inteligencję oraz wykonywać kopie zapasowe swoich projektów.
+
+Ograniczenia odpowiedzialności nie naruszają ustawowych praw konsumenta.
+
+### 10. Niezależność produktu
+
+Roblox AI Chat PRO oraz Roblox AI Bridge są niezależnymi produktami komercyjnymi.
+
+Nie są oficjalnymi produktami Roblox Corporation ani nie są przez tę firmę sponsorowane lub zatwierdzane.
+
+### 11. Postanowienia końcowe
+
+Oprogramowanie ma charakter własnościowy i nie jest udostępniane na zasadach open source.
+
+Wszelkie prawa, które nie zostały wyraźnie przyznane użytkownikowi, pozostają zastrzeżone dla właściciela praw autorskich.
+
+Niniejsza licencja obowiązuje z uwzględnieniem bezwzględnie obowiązujących przepisów prawa oraz warunków Roblox Creator Store.
+
+**Copyright © 2026 kowalski83**  
+**Wszelkie prawa zastrzeżone.**
