@@ -3,3 +3,6 @@
 
 
 Stage 2 regression: 251 tests executed, 249 passed, 2 skipped, zero failures (21.917 seconds). Offline Linux tests; no native Windows, live Studio or provider validation. Stage 1 results above are historical.
+
+
+Stage 3: 256 tests executed; 254 passed, 2 skipped, zero failures (21.989 seconds). Offline Linux regression including mocked OpenAI moderation before/after generation; no live API, native Windows or Studio test.

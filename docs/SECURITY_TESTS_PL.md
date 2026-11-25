@@ -3,3 +3,6 @@
 
 
 Regresja etapu 2: 251 testów, 249 zaliczonych, 2 pominięte, 0 błędów (21,917 s). Testy offline Linux; bez natywnego Windows, Studio i rzeczywistych dostawców. Wyniki etapu 1 powyżej są historyczne.
+
+
+Etap 3: 256 testów, 254 zaliczone, 2 pominięte, 0 błędów (21,989 s). Regresja offline Linux, w tym symulowana moderacja przed i po generowaniu; bez rzeczywistego API, Windows i Studio.
