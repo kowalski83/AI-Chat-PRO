@@ -2,8 +2,10 @@ THIRD-PARTY NOTICES — PRE-RELEASE INVENTORY
 The proprietary license applies to the publisher's own code, not third-party components.
 Python runtime: PSF license and applicable bundled component notices. https://docs.python.org/3/license.html
 PyInstaller build tool/bootloader: GPL-2.0 with special distribution exception; certain files under Apache-2.0. https://pyinstaller.org/en/stable/license.html
-The inspected Bridge uses Python standard-library imports and its own modules; actual frozen binaries can contain additional runtime libraries. The exact Windows runtime and dependency versions are not yet built here. BUDUJ_EXE.bat invokes ZBIERZ_LICENCJE.py to collect available notices in dist/THIRD_PARTY_LICENSES. Review the PyInstaller analysis/archive, verify all required full license texts and redistribute them alongside the EXE. This file alone is not a complete license inventory of an unbuilt binary.
+The inspected Bridge uses Python standard-library imports, Pillow and its own modules; actual frozen binaries can contain additional runtime libraries. The exact Windows runtime and dependency versions are not yet built here. BUDUJ_EXE.bat invokes ZBIERZ_LICENCJE.py to collect available notices in dist/THIRD_PARTY_LICENSES. Review the PyInstaller analysis/archive, verify all required full license texts and redistribute them alongside the EXE. This file alone is not a complete license inventory of an unbuilt binary.
 Optional externally installed software (not included in this archive): LM Studio or Ollama (local API interoperability only; CLI integrations disabled); review licenses and terms for installed versions separately. Remote AI providers are separate services, not bundled libraries.
 Roblox Studio, Roblox trademarks, and provider trademarks belong to their respective owners.
 
 No model weights are distributed. GPT-OSS model weights are Apache-2.0; Qwen3.5-35B-A3B official weights are Apache-2.0. Hosted APIs have separate terms; local users must check licenses of their actual installed weights.
+
+Pillow 12.3.0: image decoding and metadata removal. Review its distributed license and bundled codec/library notices for the actual Windows wheel and frozen executable. https://pillow.readthedocs.io/en/stable/about.html

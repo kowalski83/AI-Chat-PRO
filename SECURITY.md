@@ -9,3 +9,5 @@ The product is intended for adults. The current age declaration is self-reported
 Use a private reporting channel agreed with the publisher. A dedicated verified contact has not yet been established. Do not post vulnerabilities, credentials, confidential code, personal data or chat history in public issues. The plugin's report feature saves a local metadata-only file; it does not automatically contact the publisher. Do not use it for emergencies.
 
 See [privacy information](docs/PRIVACY_POLICY_EN.md).
+
+Cloud integrations screen text for selected secret patterns and credentials of all configured cloud providers. This is not comprehensive personal-data detection.

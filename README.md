@@ -13,7 +13,7 @@ This documentation describes the PRO source build; native Windows, Studio and li
 ## Documentation
 - [Architecture](docs/ARCHITECTURE.md)
 - [Installation](docs/INSTALLATION.md)
-- [OpenAI integration](docs/OPENAI_INTEGRATION.md)
+- [Providers and models](docs/PROVIDERS.md)
 - [Edition comparison](docs/FREE_VS_PRO.md)
 - [Privacy information](docs/PRIVACY_POLICY_EN.md)
 - [History controls](docs/HISTORY.md)

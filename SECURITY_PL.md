@@ -9,3 +9,5 @@ Produkt przeznaczony jest dla dorosłych. Obecna deklaracja wieku jest oświadcz
 Zgłaszaj podatności prywatnym kanałem uzgodnionym z wydawcą. Dedykowany zweryfikowany kontakt nie został jeszcze ustalony. Nie publikuj podatności, kluczy, poufnego kodu, danych osobowych ani historii rozmów w publicznych zgłoszeniach. Funkcja zgłoszeń zapisuje lokalny plik zawierający jedynie metadane; nie kontaktuje się automatycznie z wydawcą. Nie jest to kanał alarmowy.
 
 Zobacz [informację o prywatności](docs/PRIVACY_POLICY_PL.md).
+
+Kontrola tekstu w integracjach chmurowych obejmuje wybrane wzorce sekretów oraz klucze wszystkich skonfigurowanych dostawców chmurowych. Nie jest pełnym wykrywaniem danych osobowych.

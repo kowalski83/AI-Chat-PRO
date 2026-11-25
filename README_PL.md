@@ -13,7 +13,7 @@ Dokumentacja opisuje wersję źródłową PRO. Testy natywne Windows, Studio i r
 ## Dokumentacja
 - [Architektura](docs/ARCHITECTURE_PL.md)
 - [Instalacja](docs/INSTALLATION_PL.md)
-- [Integracja OpenAI](docs/OPENAI_INTEGRATION_PL.md)
+- [Dostawcy i modele](docs/PROVIDERS_PL.md)
 - [Porównanie edycji](docs/FREE_VS_PRO_PL.md)
 - [Informacja o prywatności](docs/PRIVACY_POLICY_PL.md)
 - [Historia rozmów](docs/HISTORY_PL.md)
