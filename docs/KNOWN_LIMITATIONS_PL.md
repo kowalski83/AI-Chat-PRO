@@ -1,8 +1,12 @@
-# Blokady wydania
-Natywny Windows DPAPI/build/konsola, transport i UI Studio, rzeczywiste API, wiek, ochrona sekretów, moderacja, prawa prywatności i dane kontaktowe, pełne usuwanie, podpis dystrybucji, zasady Roblox Store i dostawców wymagają pracy lub weryfikacji. Token nie chroni przed złośliwym procesem tego samego użytkownika ani fałszywym lokalnym serwerem. FREE/SIWC i autoryzacja edycji uniwersalnych niewdrożone. Failover niewdrożony. Brak certyfikacji lub zgody prawnej. Nie publikować jako gotowego wydania.
+# Zakres i ograniczenia
 
+Dokumentacja opisuje źródła PRO 4.9.35, nie potwierdza zgodności obecnie udostępnianego EXE z tymi źródłami.
 
-## Etap 3 — aktualny kandydat
-Tylko dla zadań tekstowych OpenAI API Bridge sprawdza wejście dotychczasowym PrivacyGuard, wysyła fragmenty tekstu do OpenAI /v1/moderations z własnym kluczem API klienta przed generowaniem oraz sprawdza zakończony tekst przed przekazaniem go do Studio. Oznaczenie treści lub niedostępny/nieprawidłowy wynik moderacji zatrzymuje zadanie. Załączniki obrazowe w zadaniach OpenAI są zablokowane; pozostali dostawcy pozostają bez nowej moderacji treści. Tekst OpenRouter, Groq i lokalnych modeli nie trafia do moderacji OpenAI. Moderacja nie jest weryfikacją wieku, wykrywaniem CSAM ani gwarancją bezpieczeństwa. Dzielenie tekstu może utracić kontekst; odrzucona odpowiedź mogła już naliczyć koszt generowania. Dokumentacja: https://developers.openai.com/api/docs/guides/moderation.
+- Nie zakończono walidacji natywnego Windows, DPAPI, kompilacji EXE, Roblox Studio, dużych przesyłek ani rzeczywistych API.
+- Deklaracja 18+ nie jest niezależną weryfikacją wieku. Mechanizm zgłoszeń i dodatkowe zabezpieczenia dzieci wymagają wdrożenia przed wydaniem.
+- PrivacyGuard nie wykrywa wszystkich danych osobowych i sekretów. Moderacja OpenAI nie obejmuje innych dostawców, nie jest wykrywaniem CSAM ani gwarancją bezpieczeństwa. Dzielenie tekstu może utracić kontekst.
+- Token lokalny nie zabezpiecza przed wszystkimi procesami tego samego użytkownika ani podszyciem pod lokalny serwer. Dystrybucja podpisanego EXE nie została zweryfikowana.
+- FREE, SIWC, wspólny Bridge z rozdzielonymi uprawnieniami oraz automatyczny failover są planowane, nieaktywne.
+- Dane kontaktowe do prywatnych zgłoszeń i pełna polityka przetwarzania danych przez wydawcę wymagają potwierdzenia przed wydaniem.
 
-Lokalną historię można wyłączyć przy starcie przez AI_CHAT_HISTORY_DISABLED=1 lub URUCHOM_BEZ_HISTORII.bat; w tym trybie wszystkie endpointy HTTP historii są blokowane. Nie usuwa to istniejących plików ani nie wyłącza kontekstu w pamięci, eksportów, logów diagnostycznych i retencji dostawcy. Po zamknięciu wszystkich instancji Studio i Bridge uruchom USUN_HISTORIE_CZATU.bat lub Bridge --purge-chat-history; wpisz DELETE ALL CHAT HISTORY. Usuwa rozpoznane lokalne pliki JSON historii i nazwane kopie czatów, nie kopie projektów, zewnętrzne kopie importów ani dane dostawcy. To zwykłe usuwanie plików, nie bezpieczne wymazywanie nośnika. Nierozpoznane/uszkodzone pliki mogą wymagać ręcznej kontroli. UI zgłoszeń, niezależna weryfikacja wieku, kompleksowa ochrona danych osobowych, moderacja pozostałych dostawców i obrazów oraz natywne testy Windows i Studio nadal pozostają do wykonania.
+Brak indywidualnej certyfikacji OpenAI lub Roblox.

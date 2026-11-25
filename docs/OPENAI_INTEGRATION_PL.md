@@ -1,10 +1,13 @@
-# Integracja OpenAI — do oceny technicznej
-PRO ma być niezależnym płatnym narzędziem, a API rozliczane oddzielnie przez konto klienta. Brak łączenia/odsprzedaży kluczy. Obecne źródła używają Chat Completions, nie Responses API. Zgłoszenie 20970853 wyjaśniło ścieżki, lecz nie certyfikowało DPAPI ani nie zatwierdziło SIWC. Pytania: architektura kluczy desktopowych, weryfikacja pełnoletności, moderacja/ochrona danych i kwalifikacja odrębnej wersji FREE.
+# Integracja OpenAI
 
-Dokumentacja: https://help.openai.com/articles/5112595-best-practices-for-api-key-safety ; https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance ; https://developers.openai.com/api/docs/guides/your-data ; https://openai.com/policies/sign-in-with-chatgpt-terms/ ; https://developers.openai.com/siwc/quickstart . Linki do oceny, nie dowód certyfikacji.
+PRO jest niezależnym płatnym narzędziem programistycznym. Klient używa własnego klucza API i rozlicza zapytania bezpośrednio z OpenAI. Bridge korzysta z Chat Completions i listy modeli, nie z subskrypcji ChatGPT. Klucze nie są współdzielone ani odsprzedawane.
 
+[Ochrona kluczy](API_KEY_SECURITY_PL.md) · [Moderacja](CONTENT_MODERATION_PL.md) · [SIWC](SIWC_INTEGRATION_PL.md) · [Ograniczenia](KNOWN_LIMITATIONS_PL.md)
 
-## Etap 3 — aktualny kandydat
-Tylko dla zadań tekstowych OpenAI API Bridge sprawdza wejście dotychczasowym PrivacyGuard, wysyła fragmenty tekstu do OpenAI /v1/moderations z własnym kluczem API klienta przed generowaniem oraz sprawdza zakończony tekst przed przekazaniem go do Studio. Oznaczenie treści lub niedostępny/nieprawidłowy wynik moderacji zatrzymuje zadanie. Załączniki obrazowe w zadaniach OpenAI są zablokowane; pozostali dostawcy pozostają bez nowej moderacji treści. Tekst OpenRouter, Groq i lokalnych modeli nie trafia do moderacji OpenAI. Moderacja nie jest weryfikacją wieku, wykrywaniem CSAM ani gwarancją bezpieczeństwa. Dzielenie tekstu może utracić kontekst; odrzucona odpowiedź mogła już naliczyć koszt generowania. Dokumentacja: https://developers.openai.com/api/docs/guides/moderation.
+## Dokumentacja dostawcy
 
-Lokalną historię można wyłączyć przy starcie przez AI_CHAT_HISTORY_DISABLED=1 lub URUCHOM_BEZ_HISTORII.bat; w tym trybie wszystkie endpointy HTTP historii są blokowane. Nie usuwa to istniejących plików ani nie wyłącza kontekstu w pamięci, eksportów, logów diagnostycznych i retencji dostawcy. Po zamknięciu wszystkich instancji Studio i Bridge uruchom USUN_HISTORIE_CZATU.bat lub Bridge --purge-chat-history; wpisz DELETE ALL CHAT HISTORY. Usuwa rozpoznane lokalne pliki JSON historii i nazwane kopie czatów, nie kopie projektów, zewnętrzne kopie importów ani dane dostawcy. To zwykłe usuwanie plików, nie bezpieczne wymazywanie nośnika. Nierozpoznane/uszkodzone pliki mogą wymagać ręcznej kontroli. UI zgłoszeń, niezależna weryfikacja wieku, kompleksowa ochrona danych osobowych, moderacja pozostałych dostawców i obrazów oraz natywne testy Windows i Studio nadal pozostają do wykonania.
+- https://help.openai.com/articles/5112595-best-practices-for-api-key-safety
+- https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance
+- https://developers.openai.com/api/docs/guides/your-data
+- https://openai.com/policies/sign-in-with-chatgpt-terms/
+- https://developers.openai.com/siwc/quickstart

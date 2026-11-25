@@ -1,8 +1,12 @@
-# Release blockers
-Native Windows DPAPI/build/console, actual Studio transport/UI, live providers, age assurance, secret handling, content moderation, privacy rights/contact details, full deletion, signed distribution, Roblox Store rules and provider-specific terms all require work or validation. Current token patch does not protect against malicious same-user processes or a fake local server. FREE/SIWC and universal edition authorization are not implemented. Provider fallback is not implemented. No certification or legal approval. Do not publish candidate as release-ready.
+# Scope and limitations
 
+This documentation describes PRO 4.9.35 source functionality, not verified equivalence with the currently distributed EXE.
 
-## Stage 3 — current candidate
-For OpenAI API text jobs only, Bridge screens input using the existing PrivacyGuard, sends text chunks to OpenAI /v1/moderations with the customer's own API key before generation, and checks completed text after generation before delivering it to Studio. Flagged or unavailable/malformed moderation results stop the job. OpenAI image generation requests with attachments are blocked in this candidate; other providers are unchanged and have no new content moderation. No OpenRouter, Groq or local model text is sent to OpenAI moderation. Moderation is not age assurance, CSAM detection or a guarantee of safety. Chunking may lose context; rejected output may already have incurred generation costs. See https://developers.openai.com/api/docs/guides/moderation.
+- Native Windows, DPAPI, EXE build, Roblox Studio, large uploads and live provider validation remain outstanding.
+- The 18+ declaration is not independent age assurance. Reporting and additional child-safety safeguards must be addressed before release.
+- PrivacyGuard cannot detect all personal data or secrets. OpenAI moderation does not cover other providers, is not CSAM detection and cannot guarantee safety. Text chunking may lose context.
+- Local tokens cannot protect against every same-user process or local server impersonation. Signed EXE distribution is unverified.
+- FREE, SIWC, a shared Bridge with edition-specific authorization and automatic failover are planned, not active.
+- Private reporting contact details and publisher data-processing practices require confirmation before release.
 
-Local history can be disabled at startup via AI_CHAT_HISTORY_DISABLED=1 or URUCHOM_BEZ_HISTORII.bat; all history HTTP routes are blocked in this mode. It does not erase existing files or prevent in-memory context, exports, diagnostic logs or provider retention. Close all Studio and Bridge instances before running USUN_HISTORIE_CZATU.bat or Bridge --purge-chat-history; type DELETE ALL CHAT HISTORY. This deletes recognized local chat JSON and named chat backups only, not project backups, imported external copies or provider data. It is ordinary filesystem deletion, not secure media erasure. Unrecognized/corrupt files may need manual review. Reporting UI, independent age assurance, comprehensive PII scanning, other-provider and image moderation, native Windows and Studio validation are still pending.
+No individual OpenAI or Roblox certification.

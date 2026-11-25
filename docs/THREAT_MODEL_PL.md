@@ -4,7 +4,7 @@ Chronione zasoby: klucze, token sesji, kod projektu, historia, załączniki, kos
 | Zagrożenie | Ochrona / pozostałe ryzyko |
 |---|---|
 | Dostęp LAN/przeglądarki | Loopback, kontrola host/origin; bez tunelu |
-| Lokalny klient bez autoryzacji | Token sesji w kandydacie; malware tego samego użytkownika nadal groźne |
+| Lokalny klient bez autoryzacji | Token sesji; malware tego samego użytkownika nadal groźne |
 | Kradzież tokenu/klucza | Token w pamięci i DPAPI na dysku; ryzyko schowka i konsoli |
 | Złośliwa odpowiedź AI | Walidacja narzędzi i Undo; ryzyko prompt injection i destrukcji |
 | Wyciek danych | Ograniczenia dostawców; brak kompletnego skanera sekretów/PII |

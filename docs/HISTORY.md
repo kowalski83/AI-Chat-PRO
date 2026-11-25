@@ -1,0 +1,3 @@
+# Conversation history and deletion
+
+Local history can be disabled at startup via AI_CHAT_HISTORY_DISABLED=1 or URUCHOM_BEZ_HISTORII.bat; all history HTTP routes are blocked in this mode. It does not erase existing files or prevent in-memory context, exports, diagnostic logs or provider retention. Close all Studio and Bridge instances before running USUN_HISTORIE_CZATU.bat or Bridge --purge-chat-history; type DELETE ALL CHAT HISTORY. This deletes recognized local chat JSON and named chat backups only, not project backups, imported external copies or provider data. It is ordinary filesystem deletion, not secure media erasure. Unrecognized/corrupt files may need manual review.

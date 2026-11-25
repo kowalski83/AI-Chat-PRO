@@ -1,2 +1,2 @@
-# Weryfikacja wieku — blokada publikacji
+# Weryfikacja wieku
 Obecne źródła PRO wymagają samodzielnej deklaracji 18+ w pluginie i Bridge dla chmury. Nie jest to niezależna weryfikacja ani dowód pełnoletności. Grupa docelowa: dorośli. Tryb lokalny nie dowodzi bezpieczeństwa dzieci. Brak zbierania dokumentów tożsamości. Przed publikacją ustalić metodę weryfikacji wieku chroniącą prywatność i egzekwować ją w Bridge, z wygaśnięciem i cofnięciem. Ocenić zgłaszanie, filtrowanie i zasady danych dzieci. Zapobiegać przetwarzaniu danych dzieci; nie polegać tylko na deklaracji. ZDR wymaga kwalifikacji i konfiguracji dostawcy, nie jest lokalnym przełącznikiem. Wyjaśnić z platformą i OpenAI; brak potwierdzenia konkretnej metody.

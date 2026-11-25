@@ -4,7 +4,7 @@ Assets: API keys, session token, proprietary project code, chat/history, attachm
 | Threat | Current mitigation / remaining risk |
 |---|---|
 | LAN/browser access | Loopback and host/origin checks; no external tunnel |
-| Unauthenticated local client | Candidate session token; same-user malware still possible |
+| Unauthenticated local client | Session token; same-user malware still possible |
 | Token/key theft | Memory-only token and DPAPI at rest; clipboard and console visibility remain |
 | Malicious AI output | Tool validation and Undo; prompt injection and destructive actions remain possible |
 | Data leakage | Provider restrictions; no comprehensive secret/PII scanner yet |

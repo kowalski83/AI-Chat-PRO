@@ -1,0 +1,3 @@
+# Historia rozmów i usuwanie danych
+
+Lokalną historię można wyłączyć przy starcie przez AI_CHAT_HISTORY_DISABLED=1 lub URUCHOM_BEZ_HISTORII.bat; w tym trybie wszystkie endpointy HTTP historii są blokowane. Nie usuwa to istniejących plików ani nie wyłącza kontekstu w pamięci, eksportów, logów diagnostycznych i retencji dostawcy. Po zamknięciu wszystkich instancji Studio i Bridge uruchom USUN_HISTORIE_CZATU.bat lub Bridge --purge-chat-history; wpisz DELETE ALL CHAT HISTORY. Usuwa rozpoznane lokalne pliki JSON historii i nazwane kopie czatów, nie kopie projektów, zewnętrzne kopie importów ani dane dostawcy. To zwykłe usuwanie plików, nie bezpieczne wymazywanie nośnika. Nierozpoznane/uszkodzone pliki mogą wymagać ręcznej kontroli.
