@@ -1,7 +1,0 @@
-# Przepływ i retencja danych
-Zapytania chmurowe mogą zawierać prompty, kontekst rozmowy, wybrane źródła projektu oraz obrazy. OpenAI Chat Completions wysyła store:false; OpenRouter data_collection:deny. Nie gwarantuje to zerowej retencji. Groq/OpenRouter stosują własne warunki. Lokalny endpoint może znajdować się w LAN i sam przekazywać dane dalej. Opcjonalna informacyjna kontrola własności wysyła ID konta i zasobu do Roblox; nie dowodzi płatności. Sprawdzona podstawa nie implementuje wysyłania kodu do wydawcy.
-
-Historia i kopie: Documents/RobloxStudioChatHistory; eksporty: Documents/RobloxStudioExports (konfigurowalne). Czyszczenie historii może utworzyć kopię, nie jest pełnym usunięciem. Zadania i obrazy mogą pozostać w pamięci. errors.log rotuje przy 1 000 000 bajtów z czterema kopiami, projektowo tylko metadane. Obsługa błędów konsoli i dostawców wymaga dalszego audytu maskowania. Usuń pliki i kopie po zamknięciu Bridge; usuwanie zdalne zależy od dostawcy.
-
-
-PrivacyGuard sprawdza tekst chmurowy pod kątem wybranych sekretów i adresów e-mail. Nie jest to pełny filtr danych osobowych. Zobacz [moderację](CONTENT_MODERATION_PL.md), [obrazy](IMAGE_SAFETY_PL.md) i [historię](HISTORY_PL.md).
