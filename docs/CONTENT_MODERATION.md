@@ -1,2 +1,6 @@
 # Planned content and privacy controls
 Not implemented in this candidate: dedicated moderation of requests and completed model output, comprehensive personal-data/secret scanning, incident reporting UI, verified age and full history deletion. Proposed design: inspect data before external transfer (including project context and attachments), prevent obvious credentials from being sent, use a properly authorized moderation service when appropriate, quarantine flagged output before tool execution, give a safe user explanation and private reporting path. Do not silently forward another provider's customer data to OpenAI for moderation; disclose and obtain appropriate authorization. Avoid logging rejected content. Define failure behavior and test false positives/negatives. Moderation alone does not verify age or guarantee privacy.
+
+
+## Stage 2 / Etap 2
+Stage 2 implements preliminary regex screening of outbound cloud text (including context) and completed output for email addresses, selected credential patterns, and the configured active key. Matching text is blocked, not sent to another moderation provider. Images and arbitrary personal data are not covered. False positives and negatives are possible. Full content moderation, independent age assurance and reporting remain pending.
