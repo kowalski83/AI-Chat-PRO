@@ -1,35 +1,34 @@
-# AI Chat PRO / AI Chat FREE — dokumentacja do oceny technicznej
-**Dokumentacja do konsultacji technicznej — PRO 4.9.35, kandydat SECURITY etap 3.** Publikacja produktu jest odrębną decyzją; testy natywne pozostają otwarte. Wydawca: kowalski83. Niezależne oprogramowanie, bez certyfikacji lub rekomendacji OpenAI i Roblox.
+# AI Chat PRO / AI Chat FREE
 
-PRO 4.9.35 wykorzystuje własne klucze API klientów oraz lokalne serwery modeli. FREE 4.9.36 to planowany niezależny darmowy plugin; dostęp subskrypcyjny i Codex nie są wdrożone ani autoryzowane. Wspólny darmowy Bridge jest planowany, lecz rozdzielenie uprawnień edycji nie jest jeszcze wdrożone.
+[English](README.md)
 
-Podstawa techniczna: źródła 4.9.35 Worker/Retry/Logs z tokenem sesji, lokalną konfiguracją kluczy i podstawową kontrolą tekstu. Natywny EXE, UI Studio, rzeczywiste API i weryfikacja wieku pozostają niezweryfikowane. Obecny publiczny EXE może różnić się od tej wersji.
+Niezależne narzędzie AI dla Roblox Studio, rozwijane przez **kowalski83**. Plugin wspiera pracę z kodem, edycję projektu oraz automatyzację zadań. Lokalny AI Chat Bridge obsługuje komunikację z modelami AI.
 
-## Spis dokumentacji
-- [AGE_SAFETY_PL](docs/AGE_SAFETY_PL.md)
-- [API_KEY_SECURITY_PL](docs/API_KEY_SECURITY_PL.md)
-- [ARCHITECTURE_PL](docs/ARCHITECTURE_PL.md)
-- [BRIDGE_PROTOCOL_PL](docs/BRIDGE_PROTOCOL_PL.md)
-- [CONTENT_MODERATION_PL](docs/CONTENT_MODERATION_PL.md)
-- [DATA_FLOW_PL](docs/DATA_FLOW_PL.md)
-- [FREE_VS_PRO_PL](docs/FREE_VS_PRO_PL.md)
-- [INSTALLATION_PL](docs/INSTALLATION_PL.md)
-- [KNOWN_LIMITATIONS_PL](docs/KNOWN_LIMITATIONS_PL.md)
-- [OPENAI_INTEGRATION_PL](docs/OPENAI_INTEGRATION_PL.md)
-- [PRIVACY_POLICY_PL](docs/PRIVACY_POLICY_PL.md)
-- [PROVIDER_COMPLIANCE_PL](docs/PROVIDER_COMPLIANCE_PL.md)
-- [SIWC_INTEGRATION_PL](docs/SIWC_INTEGRATION_PL.md)
-- [THREAT_MODEL_PL](docs/THREAT_MODEL_PL.md)
+## Edycje
 
-[English README](README.md)
+**PRO 4.9.35** — płatna edycja wykorzystująca własne klucze API klientów i lokalne modele. Obsługuje kolejkę Worker, punkty Undo i załączniki obrazowe do 20 MB.
 
-- [Security tests / Testy bezpieczeństwa](docs/SECURITY_TESTS_PL.md)
+**FREE 4.9.36** — planowana bezpłatna edycja z oficjalnym SIWC, zależna od autoryzacji OpenAI.
 
+Dokumentacja opisuje źródła PRO 4.9.35; stan publicznego EXE oraz zakres walidacji opisano w [ograniczeniach](docs/KNOWN_LIMITATIONS_PL.md). Projekt nie jest sponsorowany ani certyfikowany przez OpenAI lub Roblox.
 
-Regresja etapu 2: 249 zaliczonych, 2 pominięte. Dokumentacja do konsultacji technicznych; walidacja wydania handlowego pozostaje odrębnym zadaniem.
+## Dokumentacja
 
-
-## Etap 3 — aktualny kandydat
-Tylko dla zadań tekstowych OpenAI API Bridge sprawdza wejście dotychczasowym PrivacyGuard, wysyła fragmenty tekstu do OpenAI /v1/moderations z własnym kluczem API klienta przed generowaniem oraz sprawdza zakończony tekst przed przekazaniem go do Studio. Oznaczenie treści lub niedostępny/nieprawidłowy wynik moderacji zatrzymuje zadanie. Załączniki obrazowe w zadaniach OpenAI są zablokowane; pozostali dostawcy pozostają bez nowej moderacji treści. Tekst OpenRouter, Groq i lokalnych modeli nie trafia do moderacji OpenAI. Moderacja nie jest weryfikacją wieku, wykrywaniem CSAM ani gwarancją bezpieczeństwa. Dzielenie tekstu może utracić kontekst; odrzucona odpowiedź mogła już naliczyć koszt generowania. Dokumentacja: https://developers.openai.com/api/docs/guides/moderation.
-
-Lokalną historię można wyłączyć przy starcie przez AI_CHAT_HISTORY_DISABLED=1 lub URUCHOM_BEZ_HISTORII.bat; w tym trybie wszystkie endpointy HTTP historii są blokowane. Nie usuwa to istniejących plików ani nie wyłącza kontekstu w pamięci, eksportów, logów diagnostycznych i retencji dostawcy. Po zamknięciu wszystkich instancji Studio i Bridge uruchom USUN_HISTORIE_CZATU.bat lub Bridge --purge-chat-history; wpisz DELETE ALL CHAT HISTORY. Usuwa rozpoznane lokalne pliki JSON historii i nazwane kopie czatów, nie kopie projektów, zewnętrzne kopie importów ani dane dostawcy. To zwykłe usuwanie plików, nie bezpieczne wymazywanie nośnika. Nierozpoznane/uszkodzone pliki mogą wymagać ręcznej kontroli. UI zgłoszeń, niezależna weryfikacja wieku, kompleksowa ochrona danych osobowych, moderacja pozostałych dostawców i obrazów oraz natywne testy Windows i Studio nadal pozostają do wykonania.
+- [Architektura](docs/ARCHITECTURE_PL.md)
+- [Protokół Bridge](docs/BRIDGE_PROTOCOL_PL.md)
+- [Ochrona kluczy](docs/API_KEY_SECURITY_PL.md)
+- [Przepływ danych](docs/DATA_FLOW_PL.md)
+- [Model zagrożeń](docs/THREAT_MODEL_PL.md)
+- [Ochrona dzieci](docs/AGE_SAFETY_PL.md)
+- [Moderacja](docs/CONTENT_MODERATION_PL.md)
+- [Załączniki obrazowe](docs/IMAGE_SAFETY_PL.md)
+- [Historia rozmów](docs/HISTORY_PL.md)
+- [Dostawcy](docs/PROVIDER_COMPLIANCE_PL.md)
+- [Integracja OpenAI](docs/OPENAI_INTEGRATION_PL.md)
+- [Integracja SIWC](docs/SIWC_INTEGRATION_PL.md)
+- [Porównanie edycji](docs/FREE_VS_PRO_PL.md)
+- [Instalacja](docs/INSTALLATION_PL.md)
+- [Ograniczenia](docs/KNOWN_LIMITATIONS_PL.md)
+- [Prywatność](docs/PRIVACY_POLICY_PL.md)
+- [Security](SECURITY.md)
+- [License EN](LICENSE_EN.txt) · [Licencja PL](LICENSE_PL.txt)
