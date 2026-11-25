@@ -1,0 +1,2 @@
+# Instalacja
+Używaj zgodnych wersji pluginu i Bridge z oficjalnego repozytorium. W opisanej wersji klucze konfiguruje się lokalnie w Bridge, a token sesji wpisuje w panelu połączenia Studio po każdym restarcie Bridge. Nie udostępniaj tokenu. Instrukcja dotyczy wersji źródłowej 4.9.35; zgodność publicznego EXE nie została jeszcze potwierdzona. Do czasu zakończenia wymagań wydania używaj testowych projektów i modeli lokalnych.
