@@ -1,9 +1,9 @@
 # AI Chat PRO / AI Chat FREE — technical review draft
-**Status: development candidate, NOT READY for public release.** Publisher: kowalski83. Independent software, not endorsed or certified by OpenAI or Roblox.
+**Documentation for technical review — PRO 4.9.35, Security stage 2 candidate.** Commercial release is a separate decision; native validation is pending. Publisher: kowalski83. Independent software, not endorsed or certified by OpenAI or Roblox.
 
 PRO 4.9.35 uses customer-owned API credentials and local model endpoints. FREE 4.9.36 is a proposed independent no-charge plugin; subscription access and Codex are not implemented or authorized. A shared free Bridge is planned, but edition-specific access control is not yet implemented. Do not distribute this document as proof of certification.
 
-The technical baseline is the 4.9.35 Worker/Retry/Logs source, with the experimental session-token patch. The native Windows EXE, Studio UI, live API and age assurance remain unverified. The existing public EXE may differ from this candidate.
+The technical baseline is the 4.9.35 Worker/Retry/Logs source, with session-token protection, local-console credential management and preliminary text screening. The native Windows EXE, Studio UI, live API and age assurance remain unverified. The existing public EXE may differ from this candidate.
 
 ## Review index
 - [AGE_SAFETY](docs/AGE_SAFETY.md)
@@ -24,3 +24,6 @@ The technical baseline is the 4.9.35 Worker/Retry/Logs source, with the experime
 [Polski README](README_PL.md)
 
 - [Security tests / Testy bezpieczeństwa](docs/SECURITY_TESTS.md)
+
+
+Security stage 2 regression: 249 passed, 2 skipped. This documentation is suitable for technical consultation; commercial release validation remains separate.

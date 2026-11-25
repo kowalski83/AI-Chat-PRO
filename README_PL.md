@@ -1,9 +1,9 @@
 # AI Chat PRO / AI Chat FREE — dokumentacja do oceny technicznej
-**Status: kandydat deweloperski, NIEGOTOWY do publicznej sprzedaży.** Wydawca: kowalski83. Niezależne oprogramowanie, bez certyfikacji lub rekomendacji OpenAI i Roblox.
+**Dokumentacja do konsultacji technicznej — PRO 4.9.35, kandydat SECURITY etap 2.** Publikacja produktu jest odrębną decyzją; testy natywne pozostają otwarte. Wydawca: kowalski83. Niezależne oprogramowanie, bez certyfikacji lub rekomendacji OpenAI i Roblox.
 
 PRO 4.9.35 wykorzystuje własne klucze API klientów oraz lokalne serwery modeli. FREE 4.9.36 to planowany niezależny darmowy plugin; dostęp subskrypcyjny i Codex nie są wdrożone ani autoryzowane. Wspólny darmowy Bridge jest planowany, lecz rozdzielenie uprawnień edycji nie jest jeszcze wdrożone.
 
-Podstawa techniczna: źródła 4.9.35 Worker/Retry/Logs z eksperymentalną poprawką tokenu sesji. Natywny EXE, UI Studio, rzeczywiste API i weryfikacja wieku pozostają niezweryfikowane. Obecny publiczny EXE może różnić się od tej wersji.
+Podstawa techniczna: źródła 4.9.35 Worker/Retry/Logs z tokenem sesji, lokalną konfiguracją kluczy i podstawową kontrolą tekstu. Natywny EXE, UI Studio, rzeczywiste API i weryfikacja wieku pozostają niezweryfikowane. Obecny publiczny EXE może różnić się od tej wersji.
 
 ## Spis dokumentacji
 - [AGE_SAFETY_PL](docs/AGE_SAFETY_PL.md)
@@ -24,3 +24,6 @@ Podstawa techniczna: źródła 4.9.35 Worker/Retry/Logs z eksperymentalną popra
 [English README](README.md)
 
 - [Security tests / Testy bezpieczeństwa](docs/SECURITY_TESTS_PL.md)
+
+
+Regresja etapu 2: 249 zaliczonych, 2 pominięte. Dokumentacja do konsultacji technicznych; walidacja wydania handlowego pozostaje odrębnym zadaniem.
