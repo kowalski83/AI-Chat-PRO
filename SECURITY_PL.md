@@ -9,3 +9,5 @@ Produkt przeznaczony jest dla osób dorosłych; oświadczenie 18+ nie jest nieza
 Funkcja zgłoszeń zapisuje lokalny plik metadanych, bez automatycznej wysyłki. Podatności zgłaszaj prywatnie po uzgodnieniu kanału z wydawcą. Dedykowany kontakt nie jest jeszcze ustalony. Nie publikuj kluczy, kodu poufnego, danych osobowych ani szczegółów podatności w publicznych zgłoszeniach.
 
 [Polityka prywatności](docs/PRIVACY_POLICY_PL.md) · [Zakres dokumentacji](README_PL.md)
+
+Token parowania jest zapamiętywany w ustawieniach Studio; można go unieważnić w Bridge. Klucze API pozostają poza tymi ustawieniami.

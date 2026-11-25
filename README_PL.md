@@ -32,3 +32,5 @@ Niezależne narzędzie programistyczne AI dla Roblox Studio, rozwijane przez **k
 ## Zakres dokumentacji
 
 Opis dotyczy kodu źródłowego PRO 4.9.35. Testy Windows, Roblox Studio i rzeczywistych usług oraz zgodność publicznego EXE pozostają do potwierdzenia. FREE 4.9.36 jest planowana. Produkt niezależny, bez deklaracji sponsorowania lub certyfikacji przez dostawców AI czy Roblox.
+
+Konfiguracja kluczy API odbywa się w oknie Bridge. Parowanie Studio wykonuje się przy pierwszym połączeniu; kolejne uruchomienia wykorzystują zapamiętane połączenie.

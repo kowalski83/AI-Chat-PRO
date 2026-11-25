@@ -8,9 +8,9 @@ Pomoc w programowaniu, analiza kodu i wykonywanie zadań agenta w zakresie możl
 
 ## Konfiguracja
 
-1. Zatrzymaj Bridge i uruchom `KONFIGURUJ_KLUCZE.bat`.
+1. Uruchom AI Chat Bridge i przejdź do ustawień API.
 2. Wybierz OpenAI API i wpisz własny klucz API.
-3. Uruchom Bridge i wprowadź token sesji w Studio.
+3. Zapisz klucz w Bridge. Tylko przy pierwszym połączeniu skopiuj token parowania do Studio.
 4. Wybierz dostawcę i dostępny model z listy dopuszczonych.
 
 Adres API: `https://api.openai.com/v1`.

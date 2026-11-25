@@ -10,7 +10,7 @@ Coding assistance, code analysis and agent tasks within the selected model’s c
 
 1. Start Ollama and load a compatible model.
 2. Start its local API server.
-3. Set `http://127.0.0.1:11434/v1` in Modules.
+3. Set `http://127.0.0.1:11434/v1` in Bridge settings.
 4. Refresh the model list and select a model.
 
 ## Security and privacy

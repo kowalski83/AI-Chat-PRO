@@ -10,7 +10,7 @@ Pomoc w programowaniu, analiza kodu i wykonywanie zadań agenta w zakresie możl
 
 1. Uruchom LM Studio i załaduj zgodny model.
 2. Uruchom lokalny serwer API.
-3. W Modułach ustaw adres `http://127.0.0.1:1234/v1`.
+3. W ustawieniach Bridge ustaw adres `http://127.0.0.1:1234/v1`.
 4. Odśwież listę modeli i wybierz model.
 
 ## Bezpieczeństwo i prywatność

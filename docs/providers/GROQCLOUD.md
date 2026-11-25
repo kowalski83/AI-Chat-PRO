@@ -8,9 +8,9 @@ Coding assistance, code analysis and agent tasks within the selected model’s c
 
 ## Setup
 
-1. Stop Bridge and run `KONFIGURUJ_KLUCZE.bat`.
+1. Launch AI Chat Bridge and open API settings.
 2. Select GroqCloud and enter your own API key.
-3. Start Bridge and enter its session token in Studio.
+3. Save the key in Bridge. On the first connection only, copy the pairing token into Studio.
 4. Select the provider and an available allowlisted model.
 
 API endpoint: `https://api.groq.com/openai/v1`.

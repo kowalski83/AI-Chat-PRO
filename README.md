@@ -32,3 +32,5 @@ Independent AI development tool for Roblox Studio by **kowalski83**.
 ## Documentation scope
 
 This describes the PRO 4.9.35 source build. Windows, Roblox Studio and live-service testing and public EXE equivalence remain to be confirmed. FREE 4.9.36 is planned. Independent product; no claimed sponsorship or certification by AI providers or Roblox.
+
+Configure API keys in the Bridge window. Pair Studio on first connection; subsequent launches reuse the saved pairing.
