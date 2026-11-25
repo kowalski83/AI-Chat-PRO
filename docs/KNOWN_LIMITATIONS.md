@@ -1,0 +1,2 @@
+# Release blockers
+Native Windows DPAPI/build/console, actual Studio transport/UI, live providers, age assurance, secret handling, content moderation, privacy rights/contact details, full deletion, signed distribution, Roblox Store rules and provider-specific terms all require work or validation. Current token patch does not protect against malicious same-user processes or a fake local server. FREE/SIWC and universal edition authorization are not implemented. Provider fallback is not implemented. No certification or legal approval. Do not publish candidate as release-ready.

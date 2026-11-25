@@ -1,0 +1,2 @@
+# Blokady wydania
+Natywny Windows DPAPI/build/konsola, transport i UI Studio, rzeczywiste API, wiek, ochrona sekretów, moderacja, prawa prywatności i dane kontaktowe, pełne usuwanie, podpis dystrybucji, zasady Roblox Store i dostawców wymagają pracy lub weryfikacji. Token nie chroni przed złośliwym procesem tego samego użytkownika ani fałszywym lokalnym serwerem. FREE/SIWC i autoryzacja edycji uniwersalnych niewdrożone. Failover niewdrożony. Brak certyfikacji lub zgody prawnej. Nie publikować jako gotowego wydania.

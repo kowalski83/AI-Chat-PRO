@@ -1,0 +1,2 @@
+# Regresja automatyczna — SECURITY etap 1
+249 testów: 247 zaliczonych, 2 pominięte, 0 błędów (Linux, Python unittest; istniejące atrapy i testy Lua). Nowy test HTTP sprawdza brak/błędny token, dostęp autoryzowany, publiczny health bez ujawniania tokenu, odrzucone zadanie bez tokenu, Origin i wymianę tokenu. Klienty testowe używają tokenu właściwej instancji Bridge. Poprzednie raporty są historyczne. Natywny Windows DPAPI, kompilacja EXE, UI Roblox Studio i rzeczywiste API nadal do sprawdzenia. Nie jest to pentest ani certyfikacja.

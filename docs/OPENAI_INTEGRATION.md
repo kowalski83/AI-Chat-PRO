@@ -1,0 +1,4 @@
+# OpenAI technical review
+PRO is intended to be a paid independent tool, with separate API billing directly to the customer's OpenAI account. No keys are pooled/resold. Current source uses Chat Completions rather than Responses API. Support case 20970853 clarified the supported paths but did not certify DPAPI or approve SIWC. Questions for review: local desktop credential architecture, suitable adult age assurance, moderation/data controls and eligibility for the separate FREE edition.
+
+Official references: https://help.openai.com/articles/5112595-best-practices-for-api-key-safety ; https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance ; https://developers.openai.com/api/docs/guides/your-data ; https://openai.com/policies/sign-in-with-chatgpt-terms/ ; https://developers.openai.com/siwc/quickstart . References are provided for review, not certification.

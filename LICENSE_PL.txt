@@ -1,0 +1,148 @@
+# AI CHAT PRO & AI CHAT PRO BRIDGE
+
+## Komercyjna licencja oprogramowania własnościowego
+
+**Copyright © 2026 kowalski83**
+**Wszelkie prawa zastrzeżone.**
+
+### 1. Przedmiot licencji
+
+Niniejsza licencja obejmuje następujące oprogramowanie:
+
+- AI Chat PRO – płatny, komercyjny plugin programistyczny wykorzystujący sztuczną inteligencję, przeznaczony do współpracy z Roblox Studio.
+- AI Chat PRO Bridge – program pomocniczy umożliwiający komunikację pluginu z modelami i agentami sztucznej inteligencji.
+- Aktualizacje, moduły oraz pozostałe komponenty dostarczane przez właściciela praw autorskich.
+
+### 2. Zakup licencji
+
+AI Chat PRO jest komercyjnym oprogramowaniem dystrybuowanym za pośrednictwem Roblox Creator Store.
+
+Legalny zakup produktu przyznaje użytkownikowi niewyłączną licencję na korzystanie z oprogramowania w celach prywatnych i komercyjnych, zgodnie z warunkami niniejszej licencji oraz obowiązującymi zasadami Roblox Creator Store.
+
+Zakup licencji nie oznacza przeniesienia praw autorskich, prawa własności ani praw własności intelektualnej do oprogramowania lub jego własnościowego kodu źródłowego.
+
+### 3. AI Chat PRO Bridge
+
+AI Chat PRO Bridge stanowi komponent pomocniczy produktu AI Chat PRO.
+
+Program jest udostępniany do pobrania bez dodatkowej opłaty w celu umożliwienia korzystania z legalnie zakupionego pluginu.
+
+Publiczna dostępność pliku wykonywalnego EXE nie oznacza, że AI Chat PRO jest oprogramowaniem darmowym lub udostępnianym na zasadach open source.
+
+Pobranie programu AI Chat PRO Bridge nie zastępuje obowiązku zakupu pluginu AI Chat PRO.
+
+### 4. Prawa użytkownika
+
+Użytkownik posiadający ważną licencję jest uprawniony do:
+
+- Korzystania z oprogramowania w Roblox Studio.
+- Tworzenia projektów prywatnych i komercyjnych.
+- Publikowania, rozpowszechniania i monetyzowania gier stworzonych przy wykorzystaniu oprogramowania.
+- Pobierania dostępnych aktualizacji oprogramowania.
+- Instalowania oprogramowania na własnych komputerach, zgodnie z obowiązującymi warunkami zakupu i licencji.
+
+### 5. Ograniczenia licencyjne
+
+Bez uprzedniej pisemnej zgody właściciela praw autorskich zabrania się:
+
+- Kopiowania lub udostępniania pluginu osobom nieuprawnionym.
+- Odsprzedawania oprogramowania lub udzielania sublicencji.
+- Ponownego publikowania oprogramowania na innych platformach.
+- Rozpowszechniania nieautoryzowanych, zmodyfikowanych wersji oprogramowania.
+- Wykorzystywania własnościowego kodu źródłowego do tworzenia konkurencyjnych produktów.
+- Obchodzenia mechanizmów weryfikacji licencji lub zabezpieczeń oprogramowania.
+- Usuwania informacji o autorze i prawach autorskich.
+- Dekompilowania, dezasemblowania oraz stosowania inżynierii wstecznej, z wyjątkiem przypadków dozwolonych przez obowiązujące prawo.
+
+Powyższe ograniczenia nie naruszają praw wynikających z bezwzględnie obowiązujących przepisów prawa, obowiązujących warunków Roblox Creator Store ani licencji komponentów zewnętrznych.
+
+### 6. Weryfikacja licencji
+
+Oprogramowanie może zawierać mechanizmy sprawdzania uprawnień użytkownika do korzystania z produktu, w tym weryfikację własności pluginu za pośrednictwem usług Roblox.
+
+Właściciel praw autorskich zastrzega sobie możliwość rozwijania i udoskonalania mechanizmów weryfikacji licencji oraz zabezpieczeń antypirackich w kolejnych aktualizacjach, z poszanowaniem obowiązującego prawa i praw legalnych nabywców.
+
+Weryfikacja licencji nie może wymagać ponownego zakupu uprawnienia, które zostało już legalnie nabyte.
+
+### 7. Zewnętrzne usługi sztucznej inteligencji
+
+Cena zakupu AI Chat PRO nie obejmuje opłat pobieranych przez zewnętrznych dostawców usług sztucznej inteligencji.
+
+Użytkownicy odpowiadają za konfigurację własnych kont, kluczy API oraz usług AI.
+
+Wszelkie dodatkowe koszty związane z korzystaniem z zewnętrznych modeli AI lub interfejsów API ponosi użytkownik.
+
+Dostępność, ceny oraz limity korzystania z zewnętrznych usług AI mogą ulegać zmianom niezależnie od niniejszego oprogramowania.
+
+AI Chat PRO nie prowadzi sprzedaży ani udzielania sublicencji na konta, klucze API, subskrypcje, tokeny lub kredyty zewnętrznych dostawców AI.
+
+Użytkownicy zobowiązani są przestrzegać obowiązujących regulaminów usług, zasad dopuszczalnego użytkowania, ograniczeń regionalnych oraz wymagań licencyjnych wybranych dostawców AI.
+
+Korzystanie z chmurowych integracji AI wymaga ukończenia 18. roku życia oraz spełnienia dodatkowych wymagań określonych przez danego dostawcę.
+
+Potwierdzenie wieku w oprogramowaniu nie zastępuje wymagań dotyczących uprawnień ani procedur weryfikacyjnych stosowanych przez zewnętrznych dostawców.
+
+Dostępność poszczególnych dostawców i modeli AI może zostać ograniczona, zawieszona lub zakończona, jeżeli jest to konieczne ze względów prawnych, umownych, technicznych lub bezpieczeństwa, z poszanowaniem bezwzględnie obowiązujących praw konsumentów.
+
+Użytkownicy lokalnie zainstalowanych modeli AI odpowiadają za przestrzeganie licencji właściwych dla tych modeli.
+
+### 8. Komponenty zewnętrzne
+
+Biblioteki, frameworki, narzędzia, modele i pozostałe komponenty pochodzące od innych producentów podlegają ich własnym warunkom licencyjnym.
+
+Niniejsza licencja nie ogranicza praw przyznanych użytkownikom na podstawie licencji komponentów zewnętrznych.
+
+Informacje dotyczące licencji komponentów zewnętrznych znajdują się w pliku THIRD_PARTY_NOTICES.txt oraz dołączonej dokumentacji licencyjnej.
+
+### 9. Wyłączenie gwarancji i ograniczenie odpowiedzialności
+
+Oprogramowanie jest udostępniane w stanie, w jakim się znajduje, bez dodatkowych gwarancji, w maksymalnym zakresie dopuszczalnym przez obowiązujące prawo.
+
+Sztuczna inteligencja może generować wyniki nieprawidłowe, niekompletne, niebezpieczne lub nieodpowiednie do danego zastosowania.
+
+Użytkownicy odpowiadają za sprawdzenie kodu oraz zmian wygenerowanych przez sztuczną inteligencję przed ich wdrożeniem w swoich projektach.
+
+Zaleca się regularne wykonywanie kopii zapasowych projektów.
+
+W zakresie dopuszczalnym przez obowiązujące prawo właściciel praw autorskich nie ponosi odpowiedzialności za szkody wynikające z korzystania lub niemożności korzystania z oprogramowania.
+
+Żadne postanowienie niniejszej licencji nie wyłącza ani nie ogranicza ustawowych praw konsumentów, ustawowych wymagań dotyczących zgodności produktu z umową ani odpowiedzialności, której nie można zgodnie z prawem wyłączyć.
+
+### 10. Niezależność produktu
+
+AI Chat PRO oraz AI Chat PRO Bridge są niezależnie rozwijanymi produktami komercyjnymi.
+
+Nie są oficjalnymi produktami Roblox Corporation ani żadnego zewnętrznego dostawcy sztucznej inteligencji.
+
+Nie są powiązane, sponsorowane, zatwierdzane ani wspierane przez Roblox Corporation lub zewnętrznych dostawców AI.
+
+Odwołania do produktów i usług podmiotów zewnętrznych służą wyłącznie określeniu kompatybilności oraz dostępnych integracji.
+
+Wszystkie znaki towarowe podmiotów zewnętrznych należą do ich odpowiednich właścicieli.
+
+### 11. Oficjalna dystrybucja
+
+AI Chat PRO jest dystrybuowany komercyjnie za pośrednictwem Roblox Creator Store.
+
+AI Chat PRO Bridge jest dystrybuowany za pośrednictwem oficjalnego repozytorium projektu:
+
+https://github.com/kowalski83/AI-Chat-PRO
+
+Oficjalne wydania oprogramowania:
+
+https://github.com/kowalski83/AI-Chat-PRO/releases
+
+Nieautoryzowane kopie lub zmodyfikowane dystrybucje nie stanowią oficjalnych wydań oprogramowania.
+
+### 12. Postanowienia końcowe
+
+Oprogramowanie ma charakter własnościowy i nie jest udostępniane na zasadach open source, z wyjątkiem odrębnie oznaczonych komponentów zewnętrznych podlegających ich własnym licencjom.
+
+Wszelkie prawa, które nie zostały wyraźnie przyznane użytkownikowi, pozostają zastrzeżone dla właściciela praw autorskich.
+
+Niniejsza licencja obowiązuje z uwzględnieniem bezwzględnie obowiązujących przepisów prawa oraz obowiązujących warunków Roblox Creator Store.
+
+Informacje dotyczące przetwarzania danych osobowych znajdują się w dołączonej polityce prywatności.
+
+**Copyright © 2026 kowalski83**
+**Wszelkie prawa zastrzeżone.**

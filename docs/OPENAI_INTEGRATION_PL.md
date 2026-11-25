@@ -1,0 +1,4 @@
+# Integracja OpenAI — do oceny technicznej
+PRO ma być niezależnym płatnym narzędziem, a API rozliczane oddzielnie przez konto klienta. Brak łączenia/odsprzedaży kluczy. Obecne źródła używają Chat Completions, nie Responses API. Zgłoszenie 20970853 wyjaśniło ścieżki, lecz nie certyfikowało DPAPI ani nie zatwierdziło SIWC. Pytania: architektura kluczy desktopowych, weryfikacja pełnoletności, moderacja/ochrona danych i kwalifikacja odrębnej wersji FREE.
+
+Dokumentacja: https://help.openai.com/articles/5112595-best-practices-for-api-key-safety ; https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance ; https://developers.openai.com/api/docs/guides/your-data ; https://openai.com/policies/sign-in-with-chatgpt-terms/ ; https://developers.openai.com/siwc/quickstart . Linki do oceny, nie dowód certyfikacji.

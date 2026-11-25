@@ -1,0 +1,2 @@
+# Security — review candidate, NOT READY
+See [protocol](docs/BRIDGE_PROTOCOL.md), [credential storage](docs/API_KEY_SECURITY.md), [threat model](docs/THREAT_MODEL.md) and [known limitations](docs/KNOWN_LIMITATIONS.md). Report vulnerabilities privately to the publisher; the verified private reporting contact must be established before release. Do not post credentials, source code, personal data or chat history in public issues. No formal security certification.

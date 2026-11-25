@@ -1,0 +1,148 @@
+# AI CHAT PRO & AI CHAT PRO BRIDGE
+
+## Proprietary Commercial Software License
+
+**Copyright © 2026 kowalski83**
+**All rights reserved.**
+
+### 1. Scope of the License
+
+This license applies to the following software:
+
+- AI Chat PRO – a paid commercial AI development plugin designed for use with Roblox Studio.
+- AI Chat PRO Bridge – a companion application enabling communication between the plugin and artificial intelligence models and agents.
+- Updates, modules, and other components provided by the copyright holder.
+
+### 2. License Purchase
+
+AI Chat PRO is a commercial software product distributed through the Roblox Creator Store.
+
+A legitimate purchase grants the user a non-exclusive license to use the software for personal and commercial purposes, subject to this license and the applicable Roblox Creator Store terms.
+
+Purchasing a license does not transfer copyright, ownership, or intellectual property rights to the software or its proprietary source code.
+
+### 3. AI Chat PRO Bridge
+
+AI Chat PRO Bridge is a companion component of AI Chat PRO.
+
+The application is available for download at no additional charge to enable the use of a legitimately purchased plugin.
+
+Public availability of the executable file does not mean that AI Chat PRO is freeware or open-source software.
+
+Downloading AI Chat PRO Bridge does not replace the requirement to purchase the AI Chat PRO plugin.
+
+### 4. User Rights
+
+Users holding a valid license are permitted to:
+
+- Use the software within Roblox Studio.
+- Develop personal and commercial projects.
+- Publish, distribute, and monetize games created using the software.
+- Download available software updates.
+- Install the software on their own computers, subject to the applicable purchase and licensing terms.
+
+### 5. License Restrictions
+
+Without prior written permission from the copyright holder, users are prohibited from:
+
+- Copying or distributing the plugin to unauthorized users.
+- Reselling or sublicensing the software.
+- Republishing the software on other platforms.
+- Distributing unauthorized modified versions of the software.
+- Using the proprietary source code to develop competing products.
+- Circumventing license verification or protection mechanisms.
+- Removing copyright notices or author information.
+- Decompiling, disassembling, or reverse engineering the software, except where permitted by applicable law.
+
+These restrictions do not override rights granted by mandatory applicable law, applicable Roblox Creator Store terms, or third-party component licenses.
+
+### 6. License Verification
+
+The software may include mechanisms for verifying the user's entitlement to use the product, including plugin ownership verification through Roblox services.
+
+The copyright holder reserves the right to develop and improve license verification and anti-piracy mechanisms in future updates, subject to applicable law and the rights of legitimate purchasers.
+
+License verification shall not require an additional purchase of an entitlement already legitimately acquired.
+
+### 7. Third-Party AI Services
+
+The purchase price of AI Chat PRO does not include fees charged by third-party artificial intelligence service providers.
+
+Users are responsible for configuring their own accounts, API keys, and AI services.
+
+Any additional charges associated with third-party AI models or API usage are the responsibility of the user.
+
+The availability, pricing, and usage limits of third-party AI services may change independently of this software.
+
+AI Chat PRO does not sell or sublicense third-party AI accounts, API keys, subscriptions, tokens, or service credits.
+
+Users must comply with the applicable terms of service, acceptable use policies, regional restrictions, and licensing requirements of their selected AI providers.
+
+Cloud AI integrations require users to be at least 18 years old and meet any additional eligibility requirements imposed by the respective provider.
+
+Age confirmation within the software does not replace any eligibility or verification requirements imposed by third-party providers.
+
+The availability of individual AI providers and models may be restricted, suspended, or discontinued where necessary to comply with applicable legal, contractual, security, or technical requirements, subject to mandatory consumer rights.
+
+Users of locally installed AI models are responsible for complying with the applicable model licenses.
+
+### 8. Third-Party Components
+
+Third-party libraries, frameworks, tools, models, and components remain subject to their respective license agreements.
+
+This license does not restrict any rights granted under the applicable licenses of third-party components.
+
+Relevant third-party license information is provided in THIRD_PARTY_NOTICES.txt and accompanying license documentation.
+
+### 9. Disclaimer and Limitation of Liability
+
+The software is provided AS IS, without additional warranties, to the maximum extent permitted by applicable law.
+
+Artificial intelligence may generate incorrect, incomplete, insecure, or otherwise unsuitable results.
+
+Users are responsible for reviewing AI-generated code and modifications before deploying them in their projects.
+
+Users are encouraged to maintain regular backups of their projects.
+
+To the extent permitted by applicable law, the copyright holder shall not be liable for damages resulting from the use or inability to use the software.
+
+Nothing in this license excludes or limits mandatory consumer protection rights, statutory conformity requirements, or liability that cannot lawfully be excluded.
+
+### 10. Product Independence
+
+AI Chat PRO and AI Chat PRO Bridge are independently developed commercial software products.
+
+They are not official products of Roblox Corporation or any third-party AI provider.
+
+They are not affiliated with, sponsored, endorsed, or supported by Roblox Corporation or any third-party AI provider.
+
+References to third-party products and services are used solely to identify compatibility and available integrations.
+
+All third-party trademarks belong to their respective owners.
+
+### 11. Official Distribution
+
+AI Chat PRO is distributed commercially through the Roblox Creator Store.
+
+AI Chat PRO Bridge is distributed through the official project repository:
+
+https://github.com/kowalski83/AI-Chat-PRO
+
+Official releases:
+
+https://github.com/kowalski83/AI-Chat-PRO/releases
+
+Unauthorized copies or modified distributions are not official releases.
+
+### 12. Final Provisions
+
+This software is proprietary and is not distributed under an open-source license, except for separately identified third-party components subject to their respective licenses.
+
+All rights not expressly granted under this license are reserved by the copyright holder.
+
+This license is subject to mandatory applicable law and the applicable Roblox Creator Store terms.
+
+Information concerning the processing of personal data is provided in the accompanying Privacy Policy.
+
+**Copyright © 2026 kowalski83**
+**All rights reserved.**
