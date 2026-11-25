@@ -14,20 +14,16 @@ Keys: %APPDATA%/RobloxStudioAIChatAgent/api_keys.json; Windows current-user DPAP
 ## Security and rights
 Bridge binds only to loopback; Bridge requires a random session token in addition to the public header; this is not protection against all same-user processes. Use only on a trusted computer. Do not expose the port to the network. Any data processed by the publisher (e.g. support requests) requires confirmed legal bases, retention, recipients and contact details before publication; applicable rights include access, rectification, erasure, restriction, portability, objection and lodging a complaint with a supervisory authority. This does not limit rights concerning Roblox, GitHub or AI providers. The publisher must confirm actual support practices and complete these details before publication.
 
-## Current 4.9.35 scope (supersedes older provider descriptions)
-Only OpenAI API, OpenRouter, GroqCloud and the configured local endpoint (LM Studio or Ollama) are enabled. ChatGPT subscription sign-in is disabled. Gemini, Cline Cloud/CLI, NVIDIA and Devin are disabled, with no CLI opt-in in the Store build. Do not send identifying Roblox user data to AI providers or Roblox user data for training. OpenRouter requests use data_collection: deny; this is not a zero-retention guarantee. The application cannot automatically detect all personal data in arbitrary code or attachments. The 18+ declaration lasts for the Studio session and is passed to the local Bridge; it is not independently verified age and does not collect date of birth or ID documents. Gemini remains disabled regardless of declaration.
-
+## Service availability and age
+Only OpenAI API, OpenRouter, GroqCloud and the configured local endpoint (LM Studio or Ollama) are enabled. ChatGPT subscription sign-in is disabled. Gemini, Cline Cloud/CLI, NVIDIA and Devin are disabled, with no CLI opt-in in the Store build. Do not send identifying Roblox user data to AI providers or Roblox user data for training. OpenRouter requests use data_collection: deny; this is not a zero-retention guarantee. The application cannot automatically detect all personal data in arbitrary code or attachments. The 18+ declaration lasts for the Studio session and is passed to the local Bridge; it is not independently verified age and does not collect date of birth or ID documents. 
 
 OpenAI API uses the customer’s own API key, separate API billing and `store: false`; this is not a guarantee of zero retention. ChatGPT subscription sign-in is disabled. Ollama must be configured for local inference only; the operator must disable cloud inference. A local/private IP address alone does not guarantee local processing.
-
 
 ## Worker queue and diagnostic logs
 Queued prompts and associated attachments reside in memory during the current Studio session. Running tasks follow the existing history and provider data-flow practices. Bridge stores local diagnostic metadata (time, provider, operation, event, HTTP status, attempt, job identifier and retry delay) in Logs/errors.log under the history directory. This log does not store raw prompts, credentials, code or provider responses. Rotation: 1,000,000 bytes and four backups. Logs are not automatically sent to the publisher; users may manually delete them after closing Bridge.
 
-
 ## History controls
 
 See [history management](HISTORY.md). Image metadata is removed, but visible personal information is not automatically removed.
-
 
 Local safety reports contain only a category, random ID, timestamp, product and version. They are stored in SafetyReports under the history root, independently of chat history settings. Nothing is automatically sent to the publisher. Delete report files manually.

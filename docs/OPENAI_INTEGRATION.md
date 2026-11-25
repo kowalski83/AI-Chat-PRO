@@ -1,3 +1,3 @@
-# OpenAI integration
+# OpenAI API integration
 
-See [provider guide](providers/OPENAI.md) and [all integrations](PROVIDERS.md).
+See the [setup guide](providers/OPENAI.md) and [all providers](PROVIDERS.md).

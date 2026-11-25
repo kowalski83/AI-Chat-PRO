@@ -1,6 +1,6 @@
 # Providers and models
 
-PRO 4.9.35: four adapters, five deployment options. Cloud model selection is restricted by the allowlist and provider catalog; availability and prices may change.
+Choose a cloud service or your own model server. Version 4.9.35 contains four adapters and five deployment options. Cloud models depend on the allowlist and provider availability.
 
 - [GroqCloud](providers/GROQCLOUD.md)
 - [LM Studio](providers/LM_STUDIO.md)
@@ -8,4 +8,4 @@ PRO 4.9.35: four adapters, five deployment options. Cloud model selection is res
 - [OpenAI API](providers/OPENAI.md)
 - [OpenRouter](providers/OPENROUTER.md)
 
-GPT-OSS 20B/120B is a model family, not a separate provider; access depends on OpenRouter, GroqCloud or installed local weights. Gemini, NVIDIA, Cline, Devin and ChatGPT sign-in are disabled. FREE is planned.
+GPT-OSS 20B/120B is a model family, not a separate service. Availability depends on the provider catalog or installed weights. Other integrations, including ChatGPT subscription sign-in, are not available in PRO.

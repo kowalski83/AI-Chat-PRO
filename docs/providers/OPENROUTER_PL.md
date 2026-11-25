@@ -1,10 +1,32 @@
 # OpenRouter
 
-API chmurowe; własny klucz klienta; adres https://openrouter.ai/api/v1; żądania zawierają data_collection: deny, co nie gwarantuje zerowej retencji.
+AI Chat PRO integruje OpenRouter z Roblox Studio za pomocą lokalnego programu AI Chat Bridge. Zapytania są realizowane na indywidualnym koncie API użytkownika.
 
-## Konfiguracja i dane
-Zatrzymaj Bridge, uruchom KONFIGURUJ_KLUCZE.bat, wybierz dostawcę i wpisz własny klucz. Uruchom Bridge, wklej token sesji w Studio, wybierz dostawcę i dostępny model z listy dopuszczonych. Koszty i retencja zależą od dostawcy i modelu. Wydawca nie udostępnia wspólnych kredytów ani abonamentu.
+## Funkcjonalność
 
-Moderacja OpenAI nie obejmuje tej integracji. Obsługa obrazów zależy od modelu i adaptera. Zobacz [prywatność](../PRIVACY_POLICY_PL.md) i [instalację](../INSTALLATION_PL.md).
+Pomoc w programowaniu, analiza kodu i wykonywanie zadań agenta w zakresie możliwości wybranego modelu. Obsługa obrazów zależy od modelu i adaptera; limit pluginu wynosi 20 MB łącznie.
 
-Dokumentacja oficjalna: https://openrouter.ai/docs
+## Konfiguracja
+
+1. Zatrzymaj Bridge i uruchom `KONFIGURUJ_KLUCZE.bat`.
+2. Wybierz OpenRouter i wpisz własny klucz API.
+3. Uruchom Bridge i wprowadź token sesji w Studio.
+4. Wybierz dostawcę i dostępny model z listy dopuszczonych.
+
+Adres API: `https://openrouter.ai/api/v1`.
+
+## Bezpieczeństwo i prywatność
+
+Bridge chroni zapisane klucze przez Windows DPAPI i łączy się z dostawcą przez HTTPS. Kontrola poufnych danych obejmuje wybrane wzorce sekretów, a nie wszystkie dane osobowe. Bridge nie wykonuje dodatkowej moderacji treści tej integracji. Żądania zawierają `data_collection: deny`, co nie gwarantuje zerowej retencji.
+
+Szczegóły: [prywatność](../PRIVACY_POLICY_PL.md), [instalacja](../INSTALLATION_PL.md).
+
+## Rozliczenia
+
+Użytkownik rozlicza wykorzystanie API bezpośrednio z dostawcą. Zakup pluginu nie obejmuje kredytów ani abonamentu AI.
+
+## Dokumentacja dostawcy
+
+[OpenRouter](https://openrouter.ai/docs)
+
+AI Chat PRO jest niezależnym produktem; kompatybilność nie oznacza sponsorowania ani certyfikacji.

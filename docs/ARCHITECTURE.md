@@ -1,2 +1,16 @@
 # Architecture
-The Roblox Studio plugin provides the interface, project context and editing operations. The local Bridge connects to selected providers; it is not a publisher-hosted AI relay. Customers pay providers directly for API usage. Worker queues tasks and maintains Undo checkpoints; these are not full project backups.
+
+AI Chat PRO consists of a Roblox Studio plugin and a local Windows Bridge.
+
+```mermaid
+flowchart TD
+ A[Roblox Studio] --> B[AI Chat Bridge]
+ B --> C[Cloud services]
+ B --> D[Local model server]
+```
+
+The plugin prepares project context and performs editing operations. Bridge manages provider communication and credentials. The publisher does not act as an AI billing intermediary.
+
+Worker processes queued tasks. Undo checkpoints support reverting changes but do not replace full project backups.
+
+See [providers](PROVIDERS.md) and [privacy](PRIVACY_POLICY_EN.md).

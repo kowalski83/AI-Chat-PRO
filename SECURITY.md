@@ -1,13 +1,11 @@
 # Security policy
-[Polski](SECURITY_PL.md)
 
-The documented PRO build uses authenticated loopback communication, local credential configuration, Windows DPAPI for stored keys and HTTPS for supported cloud APIs. OpenAI API text and supported images are moderated; equivalent moderation is not implemented for other providers. Image metadata removal does not remove visible personal information. Use a trusted computer and avoid sending secrets or third-party personal data.
+AI Chat PRO uses authenticated local communication, Windows DPAPI for stored credentials and HTTPS for cloud services. Keys are configured outside Studio. Secret screening and image handling reduce risk but do not detect all personal data. Moderation coverage varies by integration; see [providers](docs/PROVIDERS.md).
 
-The product is intended for adults. The current age declaration is self-reported, not independent verification. Native Windows and Studio validation is outstanding. No formal certification is claimed.
+The product is intended for adults; the 18+ declaration is not independent age verification. Use a trusted computer.
 
-## Responsible disclosure
-Use a private reporting channel agreed with the publisher. A dedicated verified contact has not yet been established. Do not post vulnerabilities, credentials, confidential code, personal data or chat history in public issues. The plugin's report feature saves a local metadata-only file; it does not automatically contact the publisher. Do not use it for emergencies.
+## Reporting issues
 
-See [privacy information](docs/PRIVACY_POLICY_EN.md).
+The reporting feature saves a local metadata file without automatically sending it. Report vulnerabilities privately through a channel agreed with the publisher. A dedicated contact has not yet been established. Do not post credentials, confidential code, personal data or vulnerability details in public issues.
 
-Cloud integrations screen text for selected secret patterns and credentials of all configured cloud providers. This is not comprehensive personal-data detection.
+[Privacy policy](docs/PRIVACY_POLICY_EN.md) · [Documentation scope](README.md)

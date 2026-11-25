@@ -1,13 +1,11 @@
 # Polityka bezpieczeństwa
-[English](SECURITY.md)
 
-Opisana wersja PRO wykorzystuje uwierzytelnianą komunikację lokalną, konfigurację kluczy poza Studio, Windows DPAPI do ochrony zapisanych kluczy oraz HTTPS dla obsługiwanych usług chmurowych. Tekst i obsługiwane obrazy w integracji OpenAI API podlegają moderacji; pozostali dostawcy nie mają równoważnej moderacji w Bridge. Usunięcie metadanych obrazu nie usuwa widocznych danych osobowych. Korzystaj z zaufanego komputera i nie przesyłaj sekretów ani danych osobowych innych osób.
+AI Chat PRO wykorzystuje uwierzytelnianą komunikację lokalną, ochronę zapisanych kluczy Windows DPAPI i HTTPS dla usług chmurowych. Klucze konfiguruje się poza Studio. Kontrola sekretów i obsługa obrazów ograniczają ryzyko, ale nie wykrywają wszystkich danych osobowych. Zakres moderacji zależy od integracji; szczegóły znajdują się w [katalogu dostawców](docs/PROVIDERS_PL.md).
 
-Produkt przeznaczony jest dla dorosłych. Obecna deklaracja wieku jest oświadczeniem, nie niezależną weryfikacją. Testy natywne Windows i Studio pozostają do zakończenia. Produkt nie posiada formalnej certyfikacji.
+Produkt przeznaczony jest dla osób dorosłych; oświadczenie 18+ nie jest niezależną weryfikacją wieku. Korzystaj z zaufanego komputera.
 
-## Odpowiedzialne zgłaszanie
-Zgłaszaj podatności prywatnym kanałem uzgodnionym z wydawcą. Dedykowany zweryfikowany kontakt nie został jeszcze ustalony. Nie publikuj podatności, kluczy, poufnego kodu, danych osobowych ani historii rozmów w publicznych zgłoszeniach. Funkcja zgłoszeń zapisuje lokalny plik zawierający jedynie metadane; nie kontaktuje się automatycznie z wydawcą. Nie jest to kanał alarmowy.
+## Zgłaszanie problemów
 
-Zobacz [informację o prywatności](docs/PRIVACY_POLICY_PL.md).
+Funkcja zgłoszeń zapisuje lokalny plik metadanych, bez automatycznej wysyłki. Podatności zgłaszaj prywatnie po uzgodnieniu kanału z wydawcą. Dedykowany kontakt nie jest jeszcze ustalony. Nie publikuj kluczy, kodu poufnego, danych osobowych ani szczegółów podatności w publicznych zgłoszeniach.
 
-Kontrola tekstu w integracjach chmurowych obejmuje wybrane wzorce sekretów oraz klucze wszystkich skonfigurowanych dostawców chmurowych. Nie jest pełnym wykrywaniem danych osobowych.
+[Polityka prywatności](docs/PRIVACY_POLICY_PL.md) · [Zakres dokumentacji](README_PL.md)

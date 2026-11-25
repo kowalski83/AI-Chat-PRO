@@ -1,23 +1,34 @@
-# AI Chat PRO / AI Chat FREE
+# AI Chat PRO
 [Polski](README_PL.md)
 
-Independent AI development tools for Roblox Studio by **kowalski83**. Chat, code assistance, project editing and task automation use a locally installed Windows Bridge.
+Independent AI development tool for Roblox Studio by **kowalski83**.
 
-## Editions
-**PRO 4.9.35:** paid edition designed for customer-owned API keys and local models. Worker queue, Undo checkpoints and image attachments (up to 20 MB total).
+## Features
 
-**FREE 4.9.36:** planned free edition with Sign in with ChatGPT, subject to OpenAI authorization. Not currently active.
+- Chat, project code analysis and editing.
+- Coding agent, Worker queue and Undo checkpoints.
+- PNG, JPEG and static WEBP attachments up to 20 MB total (three images maximum), subject to model and adapter support.
+- Local Bridge and customer-owned API keys.
 
-This documentation describes the PRO source build; native Windows, Studio and live-service validation are not complete. It does not certify the currently downloadable executable.
+## Providers
+
+- [GroqCloud](docs/providers/GROQCLOUD.md)
+- [LM Studio](docs/providers/LM_STUDIO.md)
+- [Ollama](docs/providers/OLLAMA.md)
+- [OpenAI API](docs/providers/OPENAI.md)
+- [OpenRouter](docs/providers/OPENROUTER.md)
 
 ## Documentation
-- [Architecture](docs/ARCHITECTURE.md)
+
 - [Installation](docs/INSTALLATION.md)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Providers and models](docs/PROVIDERS.md)
-- [Edition comparison](docs/FREE_VS_PRO.md)
-- [Privacy information](docs/PRIVACY_POLICY_EN.md)
-- [History controls](docs/HISTORY.md)
-- [Security and reporting](SECURITY.md)
+- [PRO and FREE editions](docs/FREE_VS_PRO.md)
+- [Privacy](docs/PRIVACY_POLICY_EN.md)
+- [Conversation history](docs/HISTORY.md)
+- [Security](SECURITY.md)
 - [License EN](LICENSE_EN.txt) · [License PL](LICENSE_PL.txt)
 
-Independent product; no affiliation, sponsorship or certification by OpenAI or Roblox.
+## Documentation scope
+
+This describes the PRO 4.9.35 source build. Windows, Roblox Studio and live-service testing and public EXE equivalence remain to be confirmed. FREE 4.9.36 is planned. Independent product; no claimed sponsorship or certification by AI providers or Roblox.

@@ -1,3 +1,3 @@
-# Integracja OpenAI
+# Integracja OpenAI API
 
-Zobacz [opis dostawcy](providers/OPENAI_PL.md) oraz [wszystkie integracje](PROVIDERS_PL.md).
+Zobacz [przewodnik konfiguracji](providers/OPENAI_PL.md) oraz [katalog wszystkich dostawców](PROVIDERS_PL.md).
